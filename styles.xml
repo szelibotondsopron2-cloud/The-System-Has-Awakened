@@ -1,0 +1,8 @@
+<resources>
+    <style name="Theme.Calis10x" parent="android:style/Theme.Material.NoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">#040B18</item>
+        <item name="android:navigationBarColor">#040B18</item>
+        <item name="android:fontFamily">sans</item>
+    </style>
+</resources>

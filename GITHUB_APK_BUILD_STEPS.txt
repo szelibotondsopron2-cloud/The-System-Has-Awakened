@@ -1,0 +1,57 @@
+CALIS10X — SIMPLE GITHUB APK BUILD GUIDE
+
+Do NOT upload this ZIP file by itself.
+Unzip it first, then upload the files/folders inside it.
+
+Your GitHub repo should show:
+- app
+- .github
+- build.gradle.kts
+- settings.gradle.kts
+- README.md
+- GITHUB_APK_BUILD_STEPS.txt
+
+STEPS
+
+1. Unzip Calis10xGitHubReady.zip.
+
+2. Open your GitHub repository.
+
+3. Delete the old ZIP from the repo if you uploaded only the ZIP before.
+
+4. Click:
+   Add file > Upload files
+
+5. Drag everything INSIDE the unzipped Calis10xGitHubReady folder into GitHub.
+
+6. Click:
+   Commit changes
+
+7. Click the Actions tab at the top.
+
+8. Click:
+   Build Android APK
+
+9. Click:
+   Run workflow
+
+10. When it finishes, click the finished build.
+
+11. Scroll to Artifacts.
+
+12. Download:
+    Calis10x-debug-apk
+
+13. Unzip that downloaded artifact.
+
+14. Send the APK inside it to your Android phone.
+
+15. Open the APK on your phone and allow "Install unknown apps" if Android asks.
+
+16. In the app, open the System tab and enable:
+    - Usage Access
+    - Display Over Apps
+    - Start Guard
+
+NOTE:
+This creates a debug APK for personal use. Android may warn you because it is not from the Play Store.
